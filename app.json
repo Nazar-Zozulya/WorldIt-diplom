@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "BuzzleApp",
+    "slug": "BuzzleApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.b_elyas_h.buzzleapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "buzzleapp",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2390557b-5097-4570-a5aa-7635f23bebaa"
+      }
+    }
+  }
+}
